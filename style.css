@@ -1,0 +1,35 @@
+:root{--rosa:#d66fcf;--morado:#52164a;--lila:#f2cdf0;--tabla:#a02c8f;--texto:#52164a}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Segoe UI",system-ui,sans-serif;color:var(--texto);background:#fff;line-height:1.5}
+header{display:flex;margin-top:56px;background:var(--morado);position:relative}
+.logo{background:var(--rosa);color:#fff;font-weight:700;font-size:1.3rem;padding:12px 40px;text-decoration:none;white-space:nowrap}
+nav{margin-left:auto;padding:12px 48px;color:#fff;font-size:1.3rem;position:relative}
+nav a{color:#fff;text-decoration:none}
+nav a.on{text-decoration:underline}
+.sep{margin:0 6px}
+.sub{display:none;position:absolute;right:48px;top:100%;background:var(--lila);padding:6px 12px;z-index:5;min-width:260px}
+.sub a{display:block;color:var(--morado)}
+.sub a.on{text-decoration:underline}
+.sub.open{display:block}
+main{padding:48px 7vw}
+h1{font-size:1.4rem;text-decoration:underline;margin:0 0 .3em}
+.beneficio{color:var(--rosa);font-style:italic;font-size:1.3rem;margin:0 0 1.5em}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:48px 6vw}
+.card{position:relative;display:block;aspect-ratio:1;overflow:hidden;color:#fff;text-decoration:none;background:var(--lila)}
+.card img{width:100%;height:100%;object-fit:cover;display:block}
+.card span{position:absolute;bottom:0;left:15%;right:0;background:rgba(0,0,0,.35);padding:2px 10px;font-weight:700}
+.split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:6vw;align-items:start}
+.split img{width:100%;height:auto;display:block}
+.ph{background:var(--lila);aspect-ratio:3/4}
+.meta{color:#aaa;font-weight:700;font-size:.95rem}
+.alumno{font-weight:700;font-size:1.3rem;color:#000;margin-top:1.2em}
+.txt{white-space:pre-line}
+table{border-collapse:collapse;width:100%;text-align:center}
+th,td{border:2px solid var(--morado);padding:8px;background:#fff;width:14%}
+th{background:var(--morado);color:#fff}
+th.p{background:var(--tabla);color:#fff;width:8%}
+td b{display:block;color:#000;font-size:1.1rem}
+td small{color:#666;display:block}
+.tw{overflow-x:auto}
+.total{font-size:2rem;font-weight:700;color:var(--rosa);margin:.2em 0 1em}
+@media(max-width:800px){header{flex-direction:column;margin-top:0}.logo{padding:12px 20px}nav{padding:12px 20px;font-size:1.1rem;margin:0}.sub{right:20px}main{padding:28px 20px}.grid{grid-template-columns:1fr 1fr;gap:24px}.split{grid-template-columns:1fr}}

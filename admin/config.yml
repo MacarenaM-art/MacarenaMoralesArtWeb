@@ -1,0 +1,92 @@
+backend:
+  name: github
+  repo: TU_USUARIO/TU_REPOSITORIO
+  branch: main
+locale: es
+media_folder: images
+public_folder: /images
+collections:
+  - name: galeria
+    label: Galería
+    files:
+      - name: obras
+        label: Obras
+        file: data/obras.json
+        format: json
+        fields:
+          - label: Obras
+            name: obras
+            widget: list
+            label_singular: obra
+            summary: "{{fields.titulo}}"
+            fields:
+              - {label: Título, name: titulo, widget: string}
+              - {label: Foto, name: imagen, widget: image}
+              - {label: "Tamaño, materiales y técnica", name: medidas, widget: string}
+              - {label: Descripción, name: descripcion, widget: text}
+  - name: escuela
+    label: Escuela
+    files:
+      - name: exposicion
+        label: Exposición alumnos
+        file: data/exposicion.json
+        format: json
+        fields:
+          - {label: Título de la exposición, name: titulo, widget: string}
+          - {label: En beneficio de, name: beneficio, widget: string}
+          - label: Obras
+            name: obras
+            widget: list
+            label_singular: obra
+            summary: "{{fields.titulo}} - {{fields.alumno}}"
+            fields:
+              - {label: Título, name: titulo, widget: string}
+              - {label: Nombre del alumno, name: alumno, widget: string}
+              - {label: Foto, name: imagen, widget: image}
+              - {label: "Tamaño, materiales y técnica", name: medidas, widget: string}
+      - name: horarios
+        label: Horarios
+        file: data/horarios.json
+        format: json
+        fields:
+          - label: Filas del horario
+            name: franjas
+            widget: list
+            label_singular: fila
+            summary: "{{fields.periodo}}"
+            fields:
+              - {label: Periodo, name: periodo, widget: select, options: [Mañana, Tarde]}
+              - {label: Lunes, name: lunes, widget: text, required: false, hint: "Primera línea: grupo (Adultos/Infantil). Segunda línea: horas. Vacío si no hay clase."}
+              - {label: Martes, name: martes, widget: text, required: false}
+              - {label: Miércoles, name: miercoles, widget: text, required: false}
+              - {label: Jueves, name: jueves, widget: text, required: false}
+              - {label: Viernes, name: viernes, widget: text, required: false}
+              - {label: Sábado, name: sabado, widget: text, required: false}
+      - name: solidaridad
+        label: Solidaridad
+        file: data/solidaridad.json
+        format: json
+        fields:
+          - {label: Frase inicial, name: intro, widget: string}
+          - {label: Total recaudado, name: total, widget: string}
+          - label: Recaudaciones
+            name: items
+            widget: list
+            label_singular: recaudación
+            summary: "{{fields.texto}}"
+            fields:
+              - {label: Texto, name: texto, widget: string}
+  - name: textos
+    label: Textos y contacto
+    files:
+      - name: textos
+        label: Textos
+        file: data/textos.json
+        format: json
+        fields:
+          - {label: Foto de la escuela, name: escuela_foto, widget: image, required: false}
+          - {label: Texto de la escuela, name: escuela_texto, widget: text}
+          - {label: Foto de Macarena, name: sobre_mi_foto, widget: image, required: false}
+          - {label: Texto Sobre mí, name: sobre_mi_texto, widget: text}
+          - {label: Contacto Macarena, name: contacto_macarena, widget: text}
+          - {label: Contacto Escuela, name: contacto_escuela, widget: text}
