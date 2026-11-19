@@ -1,1 +1,8 @@
-{"escuela_foto":"","escuela_texto":"Breve descripción de la filosofía de trabajo de la escuela.\nEscribe aquí el texto completo.","sobre_mi_foto":"","sobre_mi_texto":"Datos biográficos.\nEscribe aquí tu texto.","contacto_macarena":"@Instagram\nEmail: ejemplo@mail.com","contacto_escuela":"Dirección: Carretera general del Sur, número, Valle San Lorenzo, Tenerife\n@Instagram\nEmail: ejemplo@mail.com\nTeléfono: +34 XXX XXX XXX"}
+{
+  "escuela_foto": "",
+  "escuela_texto": "Breve descripción de la filosofía de trabajo de la escuela.\nEscribe aquí el texto completo.",
+  "sobre_mi_foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ41arA4iaBwgliRpRa_ia7gsp6F72tFT4J5i82HEgtAW2pROGSCEElTxmp&s=10",
+  "sobre_mi_texto": "Datos biográficos.\nEscribe aquí tu texto.",
+  "contacto_macarena": "@Instagram\nEmail: ejemplo@mail.com",
+  "contacto_escuela": "Dirección: Carretera general del Sur, número, Valle San Lorenzo, Tenerife\n@Instagram\nEmail: ejemplo@mail.com\nTeléfono: +34 XXX XXX XXX"
+}
