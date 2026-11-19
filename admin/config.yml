@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: TU_USUARIO/TU_REPOSITORIO
+  repo: MacarenaMorales/MacarenaWeb
   branch: main
 locale: es
 media_folder: images
