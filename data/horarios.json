@@ -1,5 +1,43 @@
-{"franjas":[
-{"periodo":"Mañana","lunes":"","martes":"","miercoles":"Adultos\nDe 09h00 a 12h00","jueves":"","viernes":"","sabado":"Infantil\nDe 09h00 a 11h00"},
-{"periodo":"Mañana","lunes":"","martes":"","miercoles":"","jueves":"","viernes":"","sabado":"Adultos\nDe 11h00 a 13h00"},
-{"periodo":"Tarde","lunes":"","martes":"Infantil\nDe 17h00 a 19h00","miercoles":"Infantil\nDe 17h00 a 19h00","jueves":"Infantil\nDe 17h00 a 19h00","viernes":"","sabado":""},
-{"periodo":"Tarde","lunes":"Adultos\nDe 19h00 a 21h00","martes":"Adultos\nDe 19h00 a 21h00","miercoles":"Adultos\nDe 19h00 a 21h00","jueves":"Adultos\nDe 19h00 a 21h00","viernes":"Adultos\nDe 19h00 a 21h00","sabado":""}]}
+{
+  "franjas": [
+    {
+      "periodo": "Mañana",
+      "lunes": "",
+      "martes": "",
+      "miercoles": "Adultos\nDe 09h00 a 12h00",
+      "jueves": "",
+      "viernes": "",
+      "sabado": "Infantil\nDe 09h00 a 11h00"
+    },
+    {
+      "periodo": "Mañana",
+      "lunes": "",
+      "martes": "",
+      "miercoles": "",
+      "jueves": "",
+      "viernes": "",
+      "sabado": "Adultos\nDe 11h00 a 13h00"
+    },
+    {
+      "periodo": "Tarde",
+      "lunes": "",
+      "martes": "Infantil\nDe 17h00 a 19h00",
+      "miercoles": "Infantil\nDe 17h00 a 19h00",
+      "jueves": "Infantil\nDe 17h00 a 19h00",
+      "viernes": "",
+      "sabado": ""
+    },
+    {
+      "periodo": "Tarde",
+      "lunes": "Adultos\nDe 19h00 a 21h00",
+      "martes": "Adultos\nDe 19h00 a 21h00",
+      "miercoles": "Adultos\nDe 19h00 a 21h00",
+      "jueves": "Adultos\nDe 19h00 a 21h00",
+      "viernes": "Adultos\nDe 19h00 a 21h00",
+      "sabado": ""
+    },
+    {
+      "periodo": "Tarde"
+    }
+  ]
+}
