@@ -1,4 +1,28 @@
-{"obras":[
-{"titulo":"Obra de ejemplo 1","imagen":"","medidas":"50 x 70 cm, acuarela sobre papel","descripcion":"Escribe aquí la descripción de la obra."},
-{"titulo":"Obra de ejemplo 2","imagen":"","medidas":"40 x 40 cm, óleo sobre lienzo","descripcion":"Escribe aquí la descripción de la obra."},
-{"titulo":"Obra de ejemplo 3","imagen":"","medidas":"60 x 60 cm, óleo sobre lienzo","descripcion":"Escribe aquí la descripción de la obra."}]}
+{
+  "obras": [
+    {
+      "titulo": "Obra de ejemplo 1",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2AF8Th2LmYoEynv7YYiUmdazNTm1dksZE21-SNJZ0pCKiw3iHyrxJpkzc&s=10",
+      "medidas": "50 x 70 cm, acuarela sobre papel",
+      "descripcion": "Escribe aquí la descripción de la obra."
+    },
+    {
+      "titulo": "Obra de ejemplo 2",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrZrEVB3DtxSzIXKJtVFMHm_W7OE5BoWOIwKUl-gPZDHECloeclHbCMaho&s=10",
+      "medidas": "40 x 40 cm, óleo sobre lienzo",
+      "descripcion": "Escribe aquí la descripción de la obra."
+    },
+    {
+      "titulo": "Obra de ejemplo 3",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyuDJhhjjdEPP8khCobGEvk0maqjgbTxaqjXXcgozegg&s",
+      "medidas": "60 x 60 cm, óleo sobre lienzo",
+      "descripcion": "Escribe aquí la descripción de la obra."
+    },
+    {
+      "imagen": "https://www.google.com/imgres?q=macarena%20morales%20art&imgurl=https%3A%2F%2Fimages.saatchiart.com%2Fsaatchi%2F1536085%2Fart%2F7716149%2F6784287-HSC00001-6.jpg&imgrefurl=https%3A%2F%2Fwww.saatchiart.com%2Fen-ae%2Fmacarenamorales%3Fsrsltid%3DAYCX9vIYdek2yXmX4ONR6aoVwwRFh6an3BqdK-RO8MHcuqV_dZ59DXAh&docid=4UtpWKrv-dHaLM&tbnid=dIQ7ZMnM6blulM&vet=12ahUKEwidnr2zsZSYAxXCcfEDHZATG9MQnPAOegQIQRAA..i&w=375&h=521&hcb=2&itg=1&ved=2ahUKEwidnr2zsZSYAxXCcfEDHZATG9MQnPAOegQIQRAA",
+      "titulo": "Obra ejemplo 4",
+      "medidas": "vrios",
+      "descripcion": "nuevo"
+    }
+  ]
+}
